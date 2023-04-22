@@ -1,0 +1,25 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-instaclonefrontend-dev-12802-authRole",
+      "UnauthRoleArn": "arn:aws:iam::098880838305:role/amplify-instaclonefrontend-dev-12802-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::098880838305:role/amplify-instaclonefrontend-dev-12802-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-instaclonefrontend-dev-12802-deployment",
+      "UnauthRoleName": "amplify-instaclonefrontend-dev-12802-unauthRole",
+      "StackName": "amplify-instaclonefrontend-dev-12802",
+      "StackId": "arn:aws:cloudformation:us-east-1:098880838305:stack/amplify-instaclonefrontend-dev-12802/004ec2d0-e148-11ed-aa7d-0a8eace458b3",
+      "AmplifyAppId": "d5kvi6iz22usy"
+    },
+    "categories": {
+      "auth": {
+        "instaclonefrontend3377e635": {
+          "userPoolId": "us-east-1_icHLEYQHi",
+          "userPoolName": "dev-user-pool",
+          "webClientId": "67ni0gsfviba8445vffj0kd801",
+          "nativeClientId": "67ni0gsfviba8445vffj0kd801"
+        }
+      }
+    }
+  }
+}

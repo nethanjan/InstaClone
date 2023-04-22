@@ -114,10 +114,11 @@ module "cognito_user_pool" {
       name                 = "android-mobile-client"
       read_attributes      = ["email", "email_verified", "preferred_username"]
       allowed_oauth_scopes = ["email", "openid"]
-      allowed_oauth_flows  = ["implicit"]
+      allowed_oauth_flows  = ["implicit", "code"]
       callback_urls        = ["localhost:3000"]
       default_redirect_uri = "localhost:3000"
       generate_secret      = true
+      supported_identity_providers = ["COGNITO"]
     }
   ]
 

@@ -1,0 +1,11 @@
+{
+  "auth": {
+    "instaclonefrontend3377e635": {
+      "service": "Cognito",
+      "serviceType": "imported",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  }
+}
