@@ -1,8 +1,8 @@
-import { Button, TextField, Typography, styled } from "@mui/material";
+import { Button, TextField, styled } from "@mui/material";
 import PageTemplate from "../../templates/PageTemplate";
 import React from "react";
 import { Auth } from "aws-amplify";
-import FormWrapper from "../../templates/formWrapper";
+import FormWrapper from "../../templates/FormWrapper";
 import ErrorText from "../../components/errortext";
 
 const validRegex =

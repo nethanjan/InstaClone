@@ -1,16 +1,9 @@
-import {
-	Box,
-	Button,
-	Container,
-	TextField,
-	Typography,
-	styled,
-} from "@mui/material";
+import { Button, Typography, styled } from "@mui/material";
 import PageTemplate from "../../templates/PageTemplate";
 import React from "react";
 import { Auth } from "aws-amplify";
 import ResendVerificationPage from "./resendVerify";
-import FormWrapper from "../../templates/formWrapper";
+import FormWrapper from "../../templates/FormWrapper";
 import ContrastTextField from "../../components/styledTextFeild";
 
 const validRegex =

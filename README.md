@@ -32,6 +32,10 @@ amplify set up
     amplify import auth, select dev-user-pool (name in serverless set up) as cognito user pool
     amplify push
 
+## backend auth integration
+
+    add cognito user pool id and user pool region into the .env configurations
+
 ### Run frontend independently in dev environment
 
     npm install
