@@ -3,6 +3,7 @@ import HomePage from "../screens/home";
 import LoginPage from "../screens/login";
 import PostPage from "../screens/post";
 import RegisterPage from "../screens/register";
+import VerificationPage from "../screens/register/verify";
 
 const NavigationRoutes: Array<IRoutes> = [
 	{
@@ -28,6 +29,12 @@ const NavigationRoutes: Array<IRoutes> = [
 		title: "Login Page",
 		path: "/login",
 		component: LoginPage,
+	},
+	{
+		id: 5,
+		title: "Verification Page",
+		path: "/verification",
+		component: VerificationPage,
 	},
 ];
 export default NavigationRoutes;

@@ -1,5 +1,6 @@
 import React from "react";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
+import NavBar from "../components/navbar";
 
 interface Props {
 	children: React.ReactNode;
@@ -7,13 +8,11 @@ interface Props {
 
 const theme = createTheme({
 	palette: {
-		mode: "dark",
+		mode: "light",
 		primary: {
-			// Purple and green play nicely together.
-			main: "#160042",
+			main: "#ffffff",
 		},
 		secondary: {
-			// This is green.A700 as hex.
 			main: "#11cb5f",
 		},
 	},
@@ -44,7 +43,12 @@ theme.typography.h1 = {
 };
 
 function PageTemplate(prop: Props) {
-	return <ThemeProvider theme={theme}>{prop.children}</ThemeProvider>;
+	return (
+		<ThemeProvider theme={theme}>
+			<NavBar />
+			{prop.children}
+		</ThemeProvider>
+	);
 }
 
 export default PageTemplate;
